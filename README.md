@@ -1,4 +1,4 @@
-# mltrgt-icon
+# mltrgt-icon [mltrgt.github.io/icon](https://mltrgt.github.io/icon/)
 
 Iconfont untuk [mailtarget.co](http://mailtarget.co)
 
@@ -7,6 +7,19 @@ Dibuat menggunakan [gulp-sketch](https://github.com/cognitom/gulp-sketch), [gulp
 
 ## Getting Started
 
+### How to use
+
+#### Embed Using CSS
+``` html
+https://mltrgt.github.io/icon/css/mltrgt-icon.css
+```
+
+#### Example
+``` html
+<span class="mt-emoji"></span>
+```
+
+### Build icon
 Install dependencies:
 ``` bash
 $ npm install
@@ -23,6 +36,7 @@ $ npm start
 ```
 
 Menambahkan icon baru:
+- Buka mltrgt-icon-template.sketch
 - Buat artboard baru (512x512 px)
 - Tambahkan icon ke dalam artboard tersebut
 - Save
