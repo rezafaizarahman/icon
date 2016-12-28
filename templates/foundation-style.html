@@ -16,7 +16,22 @@
 
         body>h1 {
             color: #424242;
-            margin: 1em 0
+            margin: 1em 0.5em 0;
+            font-size: 2em
+        }
+
+        body>h2 {
+            color: #424242;
+            margin: 1em 0;
+            font-size: 1em;
+            text-align: center
+        }
+
+        h3 {
+            color: #919191;
+            margin: 0.5em 0;
+            font-size: 0.8em;
+            text-align: center
         }
 
         .glyph {
@@ -46,21 +61,47 @@
             color: #424242;
             display: block
         }
+
+        input {
+            width: 340px;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer {
+            text-align: center;
+            color: #aaa;
+            font-size: 14px;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
     </style>
 </head>
 
 <body>
     <h1><%= fontName %></h1>
+    <h3>Iconfont for mailtarget.co</h3>
+    <br>
+    <h2>Embed using CSS</h2>
+    <p>
+        <input type="text" value="https://mltrgt.github.io/icon/css/mltrgt-icon.css" readonly="">
+    </p>
+    <br>
     <ul class="glyph">
         <% _.each(glyphs, function(glyph) { %>
             <li>
                 <span class="<%= className %>-<%= glyph.name %>"></span>
-                <!-- <span class="char"><%= String.fromCodePoint(glyph.codepoint) %></span> -->
                 <span class="glyph-name"><%= className + '-' + glyph.name %></span>
-                <!-- <span class="glyph-codepoint"><%= glyph.codepoint.toString(16).toUpperCase() %></span> -->
             </li>
             <% }); %>
     </ul>
+    <br>
+    <div class="footer">with ♡ </div>
 </body>
 
 </html>
