@@ -11,8 +11,13 @@ Dibuat menggunakan [gulp-sketch](https://github.com/cognitom/gulp-sketch), [gulp
 
 #### Embed Using CSS
 ``` html
-https://mltrgt.github.io/icon/css/mltrgt-icon.css
+<link href="https://mltrgt.github.io/icon/css/mltrgt-icon.css" rel="stylesheet">
 ```
+or
+``` css
+@import url(https://mltrgt.github.io/icon/css/mltrgt-icon.css);
+```
+
 
 #### Example
 ``` html
