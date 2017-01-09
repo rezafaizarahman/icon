@@ -11,11 +11,11 @@ Dibuat menggunakan [gulp-sketch](https://github.com/cognitom/gulp-sketch), [gulp
 
 #### Embed Using CSS
 ``` html
-<link href="https://mltrgt.github.io/icon/css/mltrgt-icon.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/mltrgt-icon/0.1/css/mltrgt-icon.min.css" rel="stylesheet">
 ```
 or
 ``` css
-@import url(https://mltrgt.github.io/icon/css/mltrgt-icon.css);
+@import url(https://cdn.jsdelivr.net/mltrgt-icon/0.1/css/mltrgt-icon.min.css);
 ```
 
 
@@ -23,6 +23,8 @@ or
 ``` html
 <span class="mt-emoji"></span>
 ```
+
+or you can see detail on [jsfiddle](https://jsfiddle.net/rezafaizarahman/edhybyge/)
 
 ### Build icon
 Install dependencies:
