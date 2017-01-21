@@ -9,7 +9,7 @@ const bs = require('browser-sync').create()
  * Font settings
  */
 const fontName = 'mltrgt-icon' // set name of your symbol font
-const className = 'mtg' // set class name in your CSS
+const className = 'icon-ic' // set class name in your CSS
 const template = 'foundation-style' // or 'foundation-style'
 const skethcFileName = 'mltrgt-icon-template.sketch' // or 'symbol-font-16px.sketch'
 

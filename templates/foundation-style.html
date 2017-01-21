@@ -99,8 +99,8 @@
     <ul class="glyph">
         <% _.each(glyphs, function(glyph) { %>
             <li>
-                <span class="<%= className %>-<%= glyph.name %>"></span>
-                <span class="glyph-name"><%= className + '-' + glyph.name %></span>
+                <span class="<%= className %>_<%= glyph.name %>"></span>
+                <span class="glyph-name"><%= className + '_' + glyph.name %></span>
             </li>
             <% }); %>
     </ul>

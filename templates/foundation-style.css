@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-<%= glyphs.map(function(glyph){ return '.' + className + '-' + glyph.name + ':before' }).join(',\n') %> {
+<%= glyphs.map(function(glyph){ return '.' + className + '_' + glyph.name + ':before' }).join(',\n') %> {
   font-family: "<%= fontName %>";
   font-style: normal;
   font-weight: normal;
@@ -22,5 +22,5 @@
   text-decoration: inherit;
 }
 
-<% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>:before { content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>" }
+<% _.each(glyphs, function(glyph) { %>.<%= className %>_<%= glyph.name %>:before { content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>" }
 <% }); %>
