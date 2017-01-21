@@ -23,11 +23,14 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.2",
+    "clean-css": "^3.4.24",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
     "gulp-consolidate": "^0.2.0",
     "gulp-iconfont": "^8.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-sketch": "^1.0.3",
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.2",
+    "vinyl": "^2.0.1"
   }
 }
