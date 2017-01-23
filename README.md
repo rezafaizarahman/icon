@@ -11,17 +11,17 @@ Dibuat menggunakan [gulp-sketch](https://github.com/cognitom/gulp-sketch), [gulp
 
 #### Embed Using CSS
 ``` html
-<link href="https://cdn.jsdelivr.net/mltrgt-icon/0.1/css/mltrgt-icon.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/mltrgt-icon/1.0.0/css/mltrgt-icon.min.css" rel="stylesheet">
 ```
 or
 ``` css
-@import url(https://cdn.jsdelivr.net/mltrgt-icon/0.1/css/mltrgt-icon.min.css);
+@import url(https://cdn.jsdelivr.net/mltrgt-icon/1.0.0/css/mltrgt-icon.min.css);
 ```
 
 
 #### Example
 ``` html
-<span class="mt-emoji"></span>
+<span class="icon-ic_emoji"></span>
 ```
 
 or you can see detail on [jsfiddle](https://jsfiddle.net/rezafaizarahman/edhybyge/)
