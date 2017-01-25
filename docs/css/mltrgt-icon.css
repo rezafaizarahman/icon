@@ -26,6 +26,7 @@
 .icon-ic_check_checked:before,
 .icon-ic_check_unchecked:before,
 .icon-ic_checklist:before,
+.icon-ic_click:before,
 .icon-ic_closewindow:before,
 .icon-ic_column_next:before,
 .icon-ic_column_prev:before,
@@ -40,6 +41,7 @@
 .icon-ic_dropuparrow:before,
 .icon-ic_duplicate:before,
 .icon-ic_edit:before,
+.icon-ic_email:before,
 .icon-ic_emailautomation:before,
 .icon-ic_emailmarketing:before,
 .icon-ic_emoji:before,
@@ -68,6 +70,7 @@
 .icon-ic_plus:before,
 .icon-ic_position:before,
 .icon-ic_prev:before,
+.icon-ic_preview:before,
 .icon-ic_publish:before,
 .icon-ic_radio_button_off:before,
 .icon-ic_radio_button_on:before,
@@ -131,81 +134,84 @@
 .icon-ic_check_checked:before { content: "\EA0E" }
 .icon-ic_check_unchecked:before { content: "\EA0F" }
 .icon-ic_checklist:before { content: "\EA10" }
-.icon-ic_closewindow:before { content: "\EA11" }
-.icon-ic_column_next:before { content: "\EA12" }
-.icon-ic_column_prev:before { content: "\EA13" }
-.icon-ic_contactbook:before { content: "\EA14" }
-.icon-ic_crop:before { content: "\EA15" }
-.icon-ic_date:before { content: "\EA16" }
-.icon-ic_delete:before { content: "\EA17" }
-.icon-ic_designcontent:before { content: "\EA18" }
-.icon-ic_desktop:before { content: "\EA19" }
-.icon-ic_drawer:before { content: "\EA1A" }
-.icon-ic_dropdownarrow:before { content: "\EA1B" }
-.icon-ic_dropuparrow:before { content: "\EA1C" }
-.icon-ic_duplicate:before { content: "\EA1D" }
-.icon-ic_edit:before { content: "\EA1E" }
-.icon-ic_emailautomation:before { content: "\EA1F" }
-.icon-ic_emailmarketing:before { content: "\EA20" }
-.icon-ic_emoji:before { content: "\EA21" }
-.icon-ic_export:before { content: "\EA22" }
-.icon-ic_fail:before { content: "\EA23" }
-.icon-ic_favorite:before { content: "\EA24" }
-.icon-ic_filemanager:before { content: "\EA25" }
-.icon-ic_form:before { content: "\EA26" }
-.icon-ic_gotoback:before { content: "\EA27" }
-.icon-ic_home:before { content: "\EA28" }
-.icon-ic_info:before { content: "\EA29" }
-.icon-ic_insert:before { content: "\EA2A" }
-.icon-ic_label:before { content: "\EA2B" }
-.icon-ic_label_add:before { content: "\EA2C" }
-.icon-ic_map:before { content: "\EA2D" }
-.icon-ic_minus:before { content: "\EA2E" }
-.icon-ic_mobile:before { content: "\EA2F" }
-.icon-ic_more-v:before { content: "\EA30" }
-.icon-ic_more:before { content: "\EA31" }
-.icon-ic_moveto_down:before { content: "\EA32" }
-.icon-ic_moveto_up:before { content: "\EA33" }
-.icon-ic_next:before { content: "\EA34" }
-.icon-ic_notification:before { content: "\EA35" }
-.icon-ic_notification_none:before { content: "\EA36" }
-.icon-ic_opennew:before { content: "\EA37" }
-.icon-ic_plus:before { content: "\EA38" }
-.icon-ic_position:before { content: "\EA39" }
-.icon-ic_prev:before { content: "\EA3A" }
-.icon-ic_publish:before { content: "\EA3B" }
-.icon-ic_radio_button_off:before { content: "\EA3C" }
-.icon-ic_radio_button_on:before { content: "\EA3D" }
-.icon-ic_report:before { content: "\EA3E" }
-.icon-ic_report_bounce:before { content: "\EA3F" }
-.icon-ic_report_clickrate:before { content: "\EA40" }
-.icon-ic_report_delivered:before { content: "\EA41" }
-.icon-ic_report_download:before { content: "\EA42" }
-.icon-ic_report_openrate:before { content: "\EA43" }
-.icon-ic_report_unsubscribe:before { content: "\EA44" }
-.icon-ic_save:before { content: "\EA45" }
-.icon-ic_scale:before { content: "\EA46" }
-.icon-ic_search:before { content: "\EA47" }
-.icon-ic_send:before { content: "\EA48" }
-.icon-ic_setting_team:before { content: "\EA49" }
-.icon-ic_setting_user:before { content: "\EA4A" }
-.icon-ic_success:before { content: "\EA4B" }
-.icon-ic_template:before { content: "\EA4C" }
-.icon-ic_textstyle_align_center:before { content: "\EA4D" }
-.icon-ic_textstyle_align_justify:before { content: "\EA4E" }
-.icon-ic_textstyle_align_left:before { content: "\EA4F" }
-.icon-ic_textstyle_align_right:before { content: "\EA50" }
-.icon-ic_textstyle_bold:before { content: "\EA51" }
-.icon-ic_textstyle_italic:before { content: "\EA52" }
-.icon-ic_textstyle_link:before { content: "\EA53" }
-.icon-ic_textstyle_orderedlist:before { content: "\EA54" }
-.icon-ic_textstyle_quote:before { content: "\EA55" }
-.icon-ic_textstyle_stroke:before { content: "\EA56" }
-.icon-ic_textstyle_textsize_decrease:before { content: "\EA57" }
-.icon-ic_textstyle_textsize_increase:before { content: "\EA58" }
-.icon-ic_textstyle_underlined:before { content: "\EA59" }
-.icon-ic_textstyle_unorderedlist:before { content: "\EA5A" }
-.icon-ic_time:before { content: "\EA5B" }
-.icon-ic_view_list:before { content: "\EA5C" }
-.icon-ic_view_thumbnail:before { content: "\EA5D" }
-.icon-ic_warning:before { content: "\EA5E" }
+.icon-ic_click:before { content: "\EA11" }
+.icon-ic_closewindow:before { content: "\EA12" }
+.icon-ic_column_next:before { content: "\EA13" }
+.icon-ic_column_prev:before { content: "\EA14" }
+.icon-ic_contactbook:before { content: "\EA15" }
+.icon-ic_crop:before { content: "\EA16" }
+.icon-ic_date:before { content: "\EA17" }
+.icon-ic_delete:before { content: "\EA18" }
+.icon-ic_designcontent:before { content: "\EA19" }
+.icon-ic_desktop:before { content: "\EA1A" }
+.icon-ic_drawer:before { content: "\EA1B" }
+.icon-ic_dropdownarrow:before { content: "\EA1C" }
+.icon-ic_dropuparrow:before { content: "\EA1D" }
+.icon-ic_duplicate:before { content: "\EA1E" }
+.icon-ic_edit:before { content: "\EA1F" }
+.icon-ic_email:before { content: "\EA20" }
+.icon-ic_emailautomation:before { content: "\EA21" }
+.icon-ic_emailmarketing:before { content: "\EA22" }
+.icon-ic_emoji:before { content: "\EA23" }
+.icon-ic_export:before { content: "\EA24" }
+.icon-ic_fail:before { content: "\EA25" }
+.icon-ic_favorite:before { content: "\EA26" }
+.icon-ic_filemanager:before { content: "\EA27" }
+.icon-ic_form:before { content: "\EA28" }
+.icon-ic_gotoback:before { content: "\EA29" }
+.icon-ic_home:before { content: "\EA2A" }
+.icon-ic_info:before { content: "\EA2B" }
+.icon-ic_insert:before { content: "\EA2C" }
+.icon-ic_label:before { content: "\EA2D" }
+.icon-ic_label_add:before { content: "\EA2E" }
+.icon-ic_map:before { content: "\EA2F" }
+.icon-ic_minus:before { content: "\EA30" }
+.icon-ic_mobile:before { content: "\EA31" }
+.icon-ic_more-v:before { content: "\EA32" }
+.icon-ic_more:before { content: "\EA33" }
+.icon-ic_moveto_down:before { content: "\EA34" }
+.icon-ic_moveto_up:before { content: "\EA35" }
+.icon-ic_next:before { content: "\EA36" }
+.icon-ic_notification:before { content: "\EA37" }
+.icon-ic_notification_none:before { content: "\EA38" }
+.icon-ic_opennew:before { content: "\EA39" }
+.icon-ic_plus:before { content: "\EA3A" }
+.icon-ic_position:before { content: "\EA3B" }
+.icon-ic_prev:before { content: "\EA3C" }
+.icon-ic_preview:before { content: "\EA3D" }
+.icon-ic_publish:before { content: "\EA3E" }
+.icon-ic_radio_button_off:before { content: "\EA3F" }
+.icon-ic_radio_button_on:before { content: "\EA40" }
+.icon-ic_report:before { content: "\EA41" }
+.icon-ic_report_bounce:before { content: "\EA42" }
+.icon-ic_report_clickrate:before { content: "\EA43" }
+.icon-ic_report_delivered:before { content: "\EA44" }
+.icon-ic_report_download:before { content: "\EA45" }
+.icon-ic_report_openrate:before { content: "\EA46" }
+.icon-ic_report_unsubscribe:before { content: "\EA47" }
+.icon-ic_save:before { content: "\EA48" }
+.icon-ic_scale:before { content: "\EA49" }
+.icon-ic_search:before { content: "\EA4A" }
+.icon-ic_send:before { content: "\EA4B" }
+.icon-ic_setting_team:before { content: "\EA4C" }
+.icon-ic_setting_user:before { content: "\EA4D" }
+.icon-ic_success:before { content: "\EA4E" }
+.icon-ic_template:before { content: "\EA4F" }
+.icon-ic_textstyle_align_center:before { content: "\EA50" }
+.icon-ic_textstyle_align_justify:before { content: "\EA51" }
+.icon-ic_textstyle_align_left:before { content: "\EA52" }
+.icon-ic_textstyle_align_right:before { content: "\EA53" }
+.icon-ic_textstyle_bold:before { content: "\EA54" }
+.icon-ic_textstyle_italic:before { content: "\EA55" }
+.icon-ic_textstyle_link:before { content: "\EA56" }
+.icon-ic_textstyle_orderedlist:before { content: "\EA57" }
+.icon-ic_textstyle_quote:before { content: "\EA58" }
+.icon-ic_textstyle_stroke:before { content: "\EA59" }
+.icon-ic_textstyle_textsize_decrease:before { content: "\EA5A" }
+.icon-ic_textstyle_textsize_increase:before { content: "\EA5B" }
+.icon-ic_textstyle_underlined:before { content: "\EA5C" }
+.icon-ic_textstyle_unorderedlist:before { content: "\EA5D" }
+.icon-ic_time:before { content: "\EA5E" }
+.icon-ic_view_list:before { content: "\EA5F" }
+.icon-ic_view_thumbnail:before { content: "\EA60" }
+.icon-ic_warning:before { content: "\EA61" }
